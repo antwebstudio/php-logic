@@ -1,0 +1,31 @@
+{
+    "name": "antweb/php-logic",
+    "description": "PHP library",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Hui Yang",
+            "email": "chy1988@antwebstudio.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0"
+	},
+    "require-dev": {
+	},
+    "repositories": [
+	],
+	"scripts": {
+	},
+    "config": {
+    },
+    "bin": [
+    ],
+    "autoload": {
+        "psr-4": {
+			"Ant\\Logic\\": "src",
+			"Ant\\": "src"
+		}
+    }
+}
